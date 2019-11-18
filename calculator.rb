@@ -1,4 +1,4 @@
-def get_variable_from_file(file, variable)
+wdef get_variable_from_file(file, variable)
   file_scope = binding
   file_scope.eval(File.read(file))
 end
