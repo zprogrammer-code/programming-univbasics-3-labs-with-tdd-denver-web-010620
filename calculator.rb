@@ -1,8 +1,4 @@
 
-def get_variable_from_file(file, variable)
-  file_scope = binding
-  file_scope.eval(File.read(file))
-end
 do
 first_number=1
 second_number=2
